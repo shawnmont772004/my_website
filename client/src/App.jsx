@@ -6,6 +6,7 @@ import Signin from "./pages/Signin.jsx"
 import Signup from "./pages/Signup.jsx"
 import Profile from './pages/Profile.jsx'
 import About from './pages/About.jsx'
+import Projects from './pages/Projects.jsx'
 import Header from './components/Header.jsx'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/signup" element={ <Signup />}/>
           <Route path="/about" element={ <About />}/>
           <Route path="/profile" element={ <Profile />}/>
+          <Route path="/projects" element={ <Projects />}/>
         </Routes>
       </Router>
     </>
