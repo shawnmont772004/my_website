@@ -6,12 +6,12 @@ function Header() {
     <div className="font-space-grotesk">
     <div className="p-6 flex  justify-between items-center bg-white shadow-md  text-black ">
         <div className="ml-8">
-            <h1 className="text-3xl font-extrabold">Monteiro</h1>
+            <h1 className="text-3xl font-extrabold border-b-4 border-customYellow">Monteiro</h1>
         </div>
         <div className="font-semibold">
            <ul className="flex sm:gap-32 gap-16 items-center" >
                 <li >
-                    <Link to="/" className=" hover:bg-black hover:text-white p-3  rounded-md">Home</Link>
+                    <Link to="/" className=" hover:bg-black hover:text-white p-3  rounded-md ">Home</Link>
                 </li>
                 
                 <li >
