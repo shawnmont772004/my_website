@@ -2,9 +2,11 @@ import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import userRouter from "./Routes/user.route.js";
+import authRouter from "./Routes/auth.route.js";
 dotenv.config();
 
 const app= express();
+app.use(express.json());
 
 app.listen(3000,() => {
     console.log("Server listening on 3000!");
@@ -25,3 +27,4 @@ app.get('/',(req,res)=>{
 })
 
 app.use('/api/user',userRouter);
+app.use('/api/auth',authRouter);
