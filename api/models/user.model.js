@@ -10,12 +10,14 @@ const schema=new mongoose.Schema({
     },
     userName:{
         type:"string",
-        required:true
+        required:true,
+        unique:true
 
     },
     email:{
         type:"string",
-        required:true
+        required:true,
+        unique:true
     },
     password:{
         type:"string",
@@ -24,7 +26,8 @@ const schema=new mongoose.Schema({
     },
     phoneNo:{
         type:"string",
-        required:true
+        required:true,
+        unique:true
     }
 }, { timestamps : true });
 
