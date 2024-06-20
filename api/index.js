@@ -17,3 +17,9 @@ mongoose.connect(process.env.MONGO).then(()=>{
 })
 
 
+app.get('/',(req,res)=>{
+    res.json({
+        message:"API is running",
+    });
+})
+
