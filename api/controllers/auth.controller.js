@@ -6,7 +6,7 @@ export const authcontroller= async(req,res,next)=>{
     const typedUser=new  User({firstName:fname,lastName:lname,userName:username,email:email,password:hashedPassword,phoneNo:phone});
     try{
         await typedUser.save();
-        res.status(201).send("User created successfully");
+        res.status(201).json("User created successfully");
     }
     catch(error)
     {
