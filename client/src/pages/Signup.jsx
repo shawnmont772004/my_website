@@ -68,7 +68,7 @@ function signup() {
   return (
     <>
     <div className="min-h-screen flex items-center justify-center shadow-md font-space-grotesk ">
-    <div className="p-16 rounded-2xl shadow-lg w-96 sm:w-96 mt-12 mb-12 bg-customYellow ">
+    <div className="p-8 rounded-2xl shadow-lg w-96 sm:w-96 mt-12 mb-12 bg-customYellow ">
       <h2 className="text-2xl font-semibold mb-4 text-center">sign up</h2>
       <form onSubmit={handleSubmit} >
         <div className="mb-4 text-black">
@@ -77,7 +77,7 @@ function signup() {
             placeholder="First Name"
             name="fname"
             onChange={handleChange}
-            className="w-full p-2 border-2 border-black  rounded-md focus:outline-none focus:border-gray-500  font-semibold bg-white placeholder-grey"
+            className="w-full p-2 border-2 border-black  rounded-md focus:outline-none focus:border-gray-500  bg-white placeholder-grey"
           />
         </div>
         <div className="mb-4">
@@ -86,7 +86,7 @@ function signup() {
             placeholder="Last Name"
             name="lname"
             onChange={handleChange}
-            className="w-full p-2 border-2 border-black  rounded-md focus:outline-none focus:border-gray-500   font-semibold bg-white placeholder-grey"
+            className="w-full p-2 border-2 border-black  rounded-md focus:outline-none focus:border-gray-500    bg-white placeholder-grey"
           />
         </div>
         <div className="mb-4">
@@ -95,7 +95,7 @@ function signup() {
             placeholder="User name"
             name="username"
             onChange={handleChange}
-            className="w-full p-2 border-2 border-black  rounded-md focus:outline-none focus:border-gray-500   font-semibold bg-white placeholder-grey"
+            className="w-full p-2 border-2 border-black  rounded-md focus:outline-none focus:border-gray-500   bg-white placeholder-grey"
           />
         </div>
         <div className="mb-4">
@@ -104,7 +104,7 @@ function signup() {
             placeholder="Email"
             name="email"
             onChange={handleChange}
-            className="w-full p-2 border-2 border-black  rounded-md focus:outline-none focus:border-gray-500  font-semibold bg-white placeholder-grey"
+            className="w-full p-2 border-2 border-black  rounded-md focus:outline-none focus:border-gray-500   bg-white placeholder-grey"
           />
         </div>
         <div className="mb-4">
@@ -113,7 +113,7 @@ function signup() {
             placeholder="Password"
             name="password"
             onChange={handleChange}
-            className="w-full p-2 border-2 border-black  rounded-md focus:outline-none focus:border-gray-500   font-semibold bg-white placeholder-grey"
+            className="w-full p-2 border-2 border-black  rounded-md focus:outline-none focus:border-gray-500  bg-white placeholder-grey"
           />
         </div>
         <div className="mb-4">
@@ -122,7 +122,7 @@ function signup() {
             placeholder="Phone no."
             name="phone"
             onChange={handleChange}
-            className="w-full p-2 border-2 border-black  rounded-md focus:outline-none focus:border-gray-500 font-semibold bg-white placeholder-grey"
+            className="w-full p-2 border-2 border-black  rounded-md focus:outline-none focus:border-gray-500  bg-white placeholder-grey"
           />
         </div>
         <button
